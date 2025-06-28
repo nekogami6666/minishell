@@ -87,23 +87,25 @@ minishell$ echo $MYVAR
 # シェルを終了
 minishell$ exit
 exit
-# ソース構成
+### ソース構成
 
+```text
 minishell/
-├─ include/
-│   ├─ minishell.h       // グローバル定義
-│   ├─ lexer.h           // 字句解析
-│   ├─ parser.h          // 構文解析
-│   └─ builtins.h        // ビルトイン宣言
-├─ src/
-│   ├─ main.c            // エントリポイント
-│   ├─ lexer/            // 字句解析モジュール
-│   ├─ parser/           // 構文解析モジュール
-│   ├─ exec/             // 実行モジュール（fork・pipe）
-│   ├─ builtins/         // 各ビルトイン実装
-│   └─ utils/            // 環境操作・シグナル・エラー
-├─ libft/                // 42 標準 C ライブラリ
-└─ Makefile
+├── include/
+│   ├── minishell.h        // グローバル定義
+│   ├── lexer.h            // 字句解析
+│   ├── parser.h           // 構文解析
+│   └── builtins.h         // ビルトイン宣言
+├── src/
+│   ├── main.c             // エントリポイント
+│   ├── lexer/             // 字句解析モジュール
+│   ├── parser/            // 構文解析モジュール
+│   ├── exec/              // 実行モジュール（fork・pipe）
+│   ├── builtins/          // 各ビルトイン実装
+│   └── utils/             // 環境操作・シグナル・エラー
+├── libft/                 // 42 標準 C ライブラリ
+└── Makefile
+
 📋 制限事項 & TODO
 ❌ ヒアドキュメント（<<）未対応
 
