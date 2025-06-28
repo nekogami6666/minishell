@@ -87,10 +87,8 @@ minishell$ echo $MYVAR
 # シェルを終了
 minishell$ exit
 exit
-⚙️ ソース構成
-less
-コピーする
-編集する
+#⚙️ ソース構成
+
 minishell/
 ├─ include/
 │   ├─ minishell.h       // グローバル定義
