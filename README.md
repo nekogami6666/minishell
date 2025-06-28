@@ -87,7 +87,7 @@ minishell$ echo $MYVAR
 # シェルを終了
 minishell$ exit
 exit
-#⚙️ ソース構成
+# ソース構成
 
 minishell/
 ├─ include/
